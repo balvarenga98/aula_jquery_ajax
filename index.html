@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Consulte seu CEP | Digital Innovation One</title>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-white" id="navegacao"><img src="img/bandeirabrasil.jpg" class="rounded-circle" width="100"
+                height="75" style="padding-right: 10px; margin-left: 80px;"> Consultar Cep</a>
+        <div class="form-inline my-2 my-xs-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="00000-000" id="cep">
+            <button class="btn btn-outline-success my-2 my-md-0" onclick="consultacep()">Consultar</button>
+        </div>
+    </nav>
+    <div class="container-fluid"  style="margin-top: 50px; margin-left: 200px;">
+        <div class="row">
+            <h3 style="margin-bottom: 20px; margin-left: 8px;" id="titulo_cep">CEP</h3>
+        </div>
+        <div class="row">
+            <table class="table">
+                <tbody>
+                    <tr>
+                      <td>Logradouro</td>
+                     <td id="logradouro"></td>
+                    </tr>
+                    <tr>
+                        <td>Bairro</td>
+                       <td id="bairro"></td>
+                      </tr>
+                      <tr>
+                        <td>Localidade</td>
+                       <td id="localidade"></td>
+                      </tr>
+                      <tr>
+                        <td>Complemento</td>
+                       <td  id="complemento"></td>
+                      </tr>
+                      <tr>
+                        <td>UF</td>
+                       <td id="estado"></td>
+                      </tr>
+                </tbody>
+
+
+
+
+            </table>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+
+
+</html>
